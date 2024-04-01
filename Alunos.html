@@ -94,10 +94,74 @@
                             <li class="breadcrumb-item"><a
                                 style="text-decoration: none !important; color: black; font-size: 12px; margin-left: 2%;"
                                 href="Alunos.html">&nbsp> Alunos</a></li>
-                            
-                           
+                            </div>
                         </div>
+                        <div id="lupa-grid">
+                            <button type="button" class="button blue mobile" id="cadastrarAlunos">Cadastrar Novo Alunos</button>
                         </div>
+                    <br>
+
+                         <table id="tableAluno" class="records">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+          103                          <th>Matricula</th>
+                                    <th>Curso</th>
+                                    <th>Serie</th>
+                                    <th>Celular</th>
+                                    <th>E-mail</th>
+                                    <th>Ação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                         </table>
+                         <div class="modal" id="modal2">
+                            <div class="modal-content">
+                                <header class="modal-header">
+                                    <h2>Excluir Aluno</h2>
+                                    <span class="modal-close" id="modalClose2">&#10006;</span>
+                                </header>
+                                <div id="avisoDelete">
+
+                                </div>
+                                <footer class="modal-footer">
+                                    <button id="apagar" class="button red">Apagar</button>
+                                    <button id="cancelar2" class="button blue">Cancelar</button>
+
+                                </footer>
+                            </div>
+                         </div>
+                         <div class="modal" id="modal">
+                            <div class="modal-content">
+                                <header class="modal-header">
+                                    <h2>Novo Aluno</h2>
+                                    <span class="modal-close" id="modalClose">&#10006:</span>
+                                </header>
+                                <form id="form" class="modal-form">
+                                    <input type="text" id="nome" data-index="new" class="moda-fleld" placeholder="Nome do Aluno" required>
+                                    <input type="number" id="matricula" class="moda-fleld" placeholder="Matricula do Aluno" required>
+                                    <input type="text" id="telefone" class="moda-fleld" placeholder="Telefone do Aluno" required>
+                                    <input type="text" id="celular" class="moda-fleld" placeholder="Celular do Aluno" required>
+                                    <input type="email" id="email" class="moda-fleld" placeholder="E-mail do Aluno" required>
+                                    <input type="text" id="rua" class="moda-fleld" placeholder="Endereço do Aluno" required>
+                                    <input type="number" id="numero" data-index="new" class="moda-fleld" placeholder="Numero da Residencia" required>
+                                    <input type="text" id="complemento" class="moda-fleld" placeholder="Complemento Endereço" required>
+                                    <input type="text" id="cidade" class="moda-fleld" placeholder="Cidade do Aluno" required>
+                                    <input type="text" id="estado" class="moda-fleld" placeholder="Estado do Aluno" required>
+                                    <input type="text" id="curso" data-index="new" class="moda-fleld" placeholder="Curso do Aluno" required>
+                                    <input type="number" id="serie" class="moda-fleld" placeholder="Série do Aluno" required>
+                                </form>
+                                <footer class="modal-footer">
+                                    <button id="salvar" class="button green">Salvar</button>
+                                    <button id="Cancelar" class="button blue">Cancelar</button>
+                                </footer>
+                            </div>
+                         </div>
+
+
+                                                        
                     </div>
                 </div>
             </div>
