@@ -7,6 +7,13 @@
 
 @font-face{
     font-family: 'motabello';
+    src: url(Montebello-Regular.ttf)format("truetype"), url(Montebello-light.otf)format(opentype);
     font-weight: normal;
     font-style: normal;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #066b7c;
+    overflow: hidden;
 }
