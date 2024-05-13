@@ -135,3 +135,19 @@ nav.close li a .link-name{
     cursor: pointer;
     padding: 6px;
 }
+.sidebar-toggle2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    padding: 6px;
+    display: none;
+}
+.icons-size{
+    color: #555;
+    font-size: 22px;
+    font-weight: 600;
+}
+.actionimg{
+    right: 30px;
+}
