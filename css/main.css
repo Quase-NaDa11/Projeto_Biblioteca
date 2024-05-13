@@ -125,5 +125,13 @@ nav.close li a .link-name{
 .menu-sid{
     width: 100%;
     display: flex;
-    
+    justify-content: left;
+    padding: 12px;
+}
+.sidebar-toggle{
+    font-size: 30px;
+    font-weight: bold;
+    color:#ffffff;
+    cursor: pointer;
+    padding: 6px;
 }
