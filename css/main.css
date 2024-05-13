@@ -150,4 +150,9 @@ nav.close li a .link-name{
 }
 .actionimg{
     right: 30px;
+    display: flex;
+    object-fit: cover;
+}
+.actionimg .profile{
+    border-radius: 50%;
 }
